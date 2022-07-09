@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+     rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.login {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login .form {
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+    padding: 20px 2rem;
+    border-radius: 8px;
+}
+
+.login .field {
+    padding-bottom: 0.6rem;
+}
+.login .field label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.login .field input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.login .actions {
+    text-align: center;
+    margin-top: 1rem;
+}
+.actions input {
+    background-color: rgba(2,0,36,0);
+    transition: all 1s;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgba(2,0,36,1);
+}
+.actions input:hover {
+    background-color: rgba(2,0,36,1);
+    color: #fff;
+    border: 2px solid #fff;
+}
