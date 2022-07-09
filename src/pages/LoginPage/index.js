@@ -48,9 +48,7 @@ const LoginPage = () => {
                     </div>
 
                 </form>
-                <br></br>
-                <h2>{email}</h2>
-                <h2>{pass}</h2>
+                
             </div>
         );
     
